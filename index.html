@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+	    <meta name="description" content="Snoopy AI AGENT is AI Agent Pad, it offers a unique ecosystem with memecoin generation, AI trading, and chatbot features." />
+
+		<link rel="shortcut icon" href="./assets/favo.png" type="image/x-icon" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+		<link rel="shortcut icon" href="./assets/favo.png" type="image/x-icon" />
+		<title>SNOOPY AI AGENT | Airdrop checker</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+		<link href="assets/css/style.css" rel="stylesheet" />
+	</head>
+	<body class="position-relative bg-black text-base text-white">
+		<main>
+			<button class="scroll-top">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#7ae4e6" viewBox="0 0 256 256">
+					<path d="M205.66,117.66a8,8,0,0,1-11.32,0L136,59.31V216a8,8,0,0,1-16,0V59.31L61.66,117.66a8,8,0,0,1-11.32-11.32l72-72a8,8,0,0,1,11.32,0l72,72A8,8,0,0,1,205.66,117.66Z"></path>
+				</svg>
+			</button>
+			<div class="position-relative mobile-menu-container w-100 d-block d-xl-none">
+				<div id="overlay" class="mobile-menu-overlay"></div>
+				<nav class="mobile-navbar">
+					<div class="container" style="background-color: #000;">
+						<div class="d-flex position-relative align-items-center justify-content-between px-3 py-3 py-md-5" style="background-color: #000;">
+							<a href="index.html" class=""><img src="./assets/snname.png" width="172" height="47" alt="logo" /> </a><button id="menuToggle" class="cursor-pointer p-2"><i class="ph ph-list"></i></button>
+						</div>
+					</div>
+				</nav>
+				<div id="mobileMenu" class="mobile-sidebar">
+					<div class="d-flex items-center justify-between px-6 py-4">
+						<img src="./assets/images/logo-2.png" width="172" height="47" alt="logo" /> <button id="closeMenu" aria-label="mobile menu close" class="cursor-pointer"><i class="ph ph-x text-[24px]"></i></button>
+					</div>
+					<ul class="d-flex flex-column gap-3 px-3">
+						<li class="w-100">
+							<button class="mobile-sub-menu d-flex w-100 align-items-center justify-content-between rounded-lg px-3 py-2"><span class="text-lg">Home</span> <i class="ph ph-plus text-[24px]"></i></button>
+							<div class="submenu">
+								<ul class="ms-4 mt-3 d-flex flex-column gap-2">
+									<li><a href="https://snoopybnb.wtf/" class="m-text inline-flex w-full rounded-lg px-5 py-2">Home</a></li>
+									
+								</ul>
+							</div>
+						</li>
+						<li class="w-full"><a href="https://snoopybnb.wtf/#how-to-buy" class="m-text inline-flex w-full mobile-single-menu d-block text-black px-5 py-2">How To Buy</a></li>
+						<li class="w-full"><a href="https://snoopybnb.wtf/#about" class="m-text inline-flex w-full mobile-single-menu d-block text-black px-5 py-2">About</a></li>
+						<li class="w-full"><a href="https://snoopybnb.wtf/#tokenomics" class="m-text inline-flex w-full mobile-single-menu d-block text-black px-5 py-2">Tokenomics</a></li>
+						<li class="w-full"><a href="https://snoopybnb.wtf/#roadmap" class="m-text inline-flex w-full mobile-single-menu d-block text-black px-5 py-2">Roadmap</a></li>
+						<li class="w-full"><a href="https://snoopybnb.wtf/#faq" class="m-text inline-flex w-full mobile-single-menu d-block text-black px-5 py-2">Faqs</a></li>
+						<li class="w-full"><a href="https://snoopybnb.wtf/#contact" class="m-text inline-flex w-full mobile-single-menu d-block text-black px-5 py-2">BUY TOKENS</a></li>
+					</ul>
+				</div>
+			</div>
+			<header class="desktop-nav-container home-three-navbar fixed-top z-50 w-full px-5 px-4xl-0 d-xl-block d-none">
+				<span class="position-absolute navbar-line bottom-0 left-0 d-none d-md-block"><span class="line"></span></span>
+				<div class="custom-container d-flex align-items-center justify-content-between">
+					<div>
+						<a href="/"><img src="./assets/snname.png" alt="logo" style="width: 250px;" /></a>
+					</div>
+					<ul class="d-flex menu-items align-items-center justify-content-between gap-3 gap-xxl-5">
+							 <li class="list-none"><a href="#" class="home-3-nav-item">Home</a></li>
+						    <li class="list-none"><a href="https://stake.snoopybnb.wtf/" target="_blank" class="home-3-nav-item">Stake</a></li>
+							<li class="list-none"><a href="https://snoopybnb.wtf/#about" class="home-3-nav-item">About</a></li>
+							<li class="list-none"><a href="https://snoopybnb.wtf/#tokenomics" class="home-3-nav-item">TOKENOMICS</a></li>
+							<li class="list-none"><a href="https://snoopybnb.wtf/#roadmap" class="home-3-nav-item">ROADMAP</a></li>
+							<li class="list-none"><a href="https://snoopybnb.wtf/#faq" class="home-3-nav-item">FAQ</a></li>
+							<li class="list-none"><a href="https://snoopybnb.wtf/#contact" class="home-3-nav-item">BUY $SNOOPY</a></li>
+					</ul>
+					<a href="https://snoopybnb.wtf/#contact" class="button-primary-green">BUY $SNOOPY</a>
+				</div>
+			</header>
+		<!-- HTML -->
+
+
+			<section class="position-relative home-three-presale-live spy120px" style="background-color: black;" id="contact">
+				<button class="airdrop-alert ">🎉 Airdrop checker is live</button>
+
+<!-- CSS -->
+<style>
+  .airdrop-alert {
+  position: fixed;
+  top: 110px;
+  right: 20px;
+  z-index: 9999;
+  background-color: #f1ed09;
+  color: #000;
+  padding: 12px 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: default;
+  pointer-events: none; /* impede clique */
+  animation: blinkFade 1.2s infinite;
+}
+
+@keyframes blinkFade {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@media (max-width: 600px) {
+  .airdrop-alert {
+    font-size: 12px;
+    padding: 10px 14px;
+    top: 80px;
+    right: 10px;
+  }
+}
+
+</style>
+				<div class="container position-relative">
+					<div class="text-center">
+						<h3 class="title-white">Checker is live</h3>
+						<p class="m-text reveal_anim mx-auto section-text pt-4 opacity-90 xl:pt-6">Check Your Eligibility for the Biggest Memecoin Airdrop of the Year!💰</p>
+					
+					</div>
+					<div class="g-6 smt60px justify-content-between row">
+						<div class="reveal_anim col-xl-5 d-flex flex-column gap-5">
+							<div class="presale-border-3 p-6">
+								<img src="./assets/images/presale-live-icon-1.png" alt="Image" />
+								<p class="lead-text mt-5 fw-bold">Airdrop allocation</p>
+							    <p class="">Registration time: Until the presale ends</p>
+								<hr> 
+								<ul>
+									
+									<li>Maximum allocation <a href="#" target="_blank">Four meme</a>: 9,500 SNOOPY</li>
+									<li>Maximum allocation <a href="https://stake.snoopybnb.wtf/" target="_blank">Staker</a>: 3,500 SNOOPY</li>
+									<li>Maximum allocation <a href="https://t.me/SnoopybnbAirdrop_bot" target="_blank">Snoopy telegram</a>: 1,500 SNOOPY</li>
+									<li>Maximum allocation <a href="https://snoopybnb.wtf/" target="_blank">Snoopy Buyer</a>: 10,500 SNOOPY</li>
+									<li>Maximum allocation <a href="#" target="_blank">Airdrop Referral</a>: 11,000 SNOOPY</li> 
+									<br>
+									Note: Users who interacted with the <b style="color: rgb(255, 145, 0);">Telegram bot</b> will only be eligible <b style="color: rgb(255, 145, 0);">after the pre-sale ends</b>.
+
+								</ul>
+									
+							</div>
+							
+							
+						</div>
+						<div class="reveal_anim col-xl-7 col-xxl-6" data-reveal-from="right">
+							<div class="rounded-2xl buy-memeco sp40px">
+								<div class="d-flex align-items-center justify-content-center gap-2">
+									<img src="https://stake.snoopybnb.wtf/index_files/favo.png" alt="Image" style="width: 6%;" /> <span class="lead-text font-title-font">AIRDROP
+										<span class="text-h1Primary2">Checker</span></span>
+								</div>
+								<div class="pricing g-5 spt40px">
+									<div class="current-price p-3">
+										<p class="">Four meme</p>
+										<p class="fw-bold" id="fmeme">0.00</p>
+									</div>
+									<div class="current-price p-3">
+										<p class="">Snoopy buyer</p>
+										<p class="fw-bold" id="buyer">0.00</p>
+									</div>
+									<div class="current-price p-3">
+										<p class="">Snoopy staker</p>
+										<p class="fw-bold" id="staker">0.00</p>
+									</div>
+									<div class="current-price p-3">
+										<p class="">Referral</p>
+										<p class="fw-bold" id="reff">0.00</p>
+									</div>
+								</div>
+								<div class="smt32px">
+									<p class="m-text text-center font-bold" ><b style="font-size: 25px;" id="allocation">0.00 $SNOOPY</b></p>
+									<center><b class="m-text text-center font-bold" style="font-weight: 340;" >Your allocation</b></center>
+									</div>
+								<div class="mt-3 d-flex align-items-center justify-content-center">
+									<div class="m-text d-flex align-items-center justify-content-between gap-3 p-3 next-price" style="background-color: #70707049;">
+									 <p style="color: #fff;">You’ll be able to claim after the presale ends.</p>
+									
+									</div>
+								</div>
+								<div class="d-flex flex-wrap align-items-center justify-content-between gap-1 smt32px">
+									
+								<a class="button-primary-green mx-auto block text-center smt32px w-100" id="connect" style="cursor: pointer;">CONNECT WALLET</a>
+								
+								  <input type="text" id="referinput" hidden style="color: black;">
+                 					<center><b id="referid"></b></center>
+								</div>
+								<form id="mainForm">
+							
+								<div class="row g-5  row-cols-sm-2">
+									<div>
+										<div class=" p-1 m-text mt-2 d-flex align-items-center justify-content-between">
+										<a class="button-primary-green mx-auto block text-center smt32px w-100" id="register" onclick="registerAccount()" style="cursor: pointer;">Register</a>
+										
+									</div>
+									</div>
+									<div>
+										<div class=" m-text mt-2 p-1 d-flex align-items-center justify-content-between rounded-lg">
+										<a class="button-primary-green mx-auto block text-center smt32px w-100" href="http://stake.snoopybnb.wtf/" target="_blank" style="cursor: pointer;">Stake tokens</a>
+										</div>
+									</div>
+									<button type="button" style="width: 100%;" class="button-primary-green mx-auto block text-center smt32px" onclick="toggleReferral(true);" id="invite">
+														Invite to earn more points
+													</button>
+								</div>
+
+								<div>
+								</form>
+								
+									<br>
+									<p class="m-text mt-1 text-center">
+										The airdrop smart contract is publicly accessible to ensure full transparency and eliminate any concerns.
+										<a href="https://bscscan.com/address/0xE2Db2dF165Adf515F80C5A30B9D0f06d138120e2" target="_blank">0xE2Db2d...8120e2</a><br>
+										
+										<a href="https://paynch.io/" target="_blank" class="m-text block font-semibold underline underline-offset-2 smt40px" style="text-decoration: none; display: inline-flex; align-items: center; justify-content: center; margin-top: 20px;">
+										<br><Br>
+										<a style="color: #fff;" href="https://paynch.io/" target="_blank">Secured and powered by &nbsp;
+										<img src="https://snoopybnb.wtf/index_files/logo2.jpg" style="width: 20px; margin-right: 8px;" alt="Paynch Logo">
+										Paynch
+										</a>
+									</p>
+								</div>
+								 <div id="referralSection" style="display: none;" class="mt-6 text-center">
+										<div class="flex justify-center items-center">
+											<input type="text" id="referralLink" style="width: 100%;" class="m-text flex items-center justify-between 
+											rounded-lg border border-white/10 bg-white/5 p-3 
+											bg-transparent border p-2 rounded w-80" readonly value="https://airdrop.snoopybnb.wtf/?ref=YourWalletHere">
+										</div>
+										<div class="mt-4 flex justify-center gap-4">
+											<button class="button-primary-green" onclick="copyReferral()">Copy</button>
+											<button class="button-primary-green" onclick="toggleReferral(false);">Back</button>
+										</div>
+										</div>
+								<div class="d-flex flex-wrap align-items-center justify-content-between gap-1 smt32px">
+									<a style="color: #fff;"  target="_blank"><div class="d-flex cursor-pointer align-items-center gap-1 rounded coin-card p-2 duration-300">
+										<i class="fas fa-shield-alt"></i>
+										<p class="m-text">Audited by coinsult</p>
+									</div>
+									</a>
+									<a style="color: #fff;" href="https://dashboard.paynch.io/snoopy-ai-agents" target="_blank">
+									<div class="group d-flex cursor-pointer align-items-center gap-1 rounded coin-card p-2 duration-300">
+										<i class="fas fa-id-badge"></i>
+										<p class="m-text">Team KYC</p>
+									</div>
+									</a>
+									<a onclick="addToken()">
+									<div class="group d-flex cursor-pointer align-items-center gap-1 rounded coin-card p-2 duration-300">
+										<i class="fas fa-shield-alt"></i>
+										<p class="m-text">Add $SNOOPY to metamask</p>
+									</div>
+									</a>
+								</div>
+
+										<script>
+								async function addToken() {
+								try {
+									const wasAdded = await window.ethereum.request({
+									method: 'wallet_watchAsset',
+									params: {
+										type: 'ERC20',
+										options: {
+										address: '0xf58F0090eb8964849872f1629EF83d70742a45ea', // endereço real do token
+										symbol: 'SNOOPY',
+										decimals: 18,
+										image: 'https://stake.snoopybnb.wtf/index_files/favo.png' // opcional
+										}
+									}
+									});
+
+									if (wasAdded) {
+									alert('$SNOOPY added to your MetaMask!');
+									} else {
+									alert('canceled.');
+									}
+								} catch (error) {
+									console.error(error);
+									alert('Error.');
+								}
+								}
+							</script>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			  <script>
+             
+            
+              function copyManualAddress() {
+                const input = document.getElementById("manualBuyAddress");
+                input.select();
+                input.setSelectionRange(0, 99999); // Mobile compatibility
+                document.execCommand("copy");
+                alert("Address copied!");
+              }
+            </script>
+			  <script>
+              
+                
+                  function toggleReferral(show) {
+                    document.getElementById("mainForm").style.display = show ? "none" : "block";
+                    document.getElementById("referralSection").style.display = show ? "block" : "none";
+                  }
+                
+                  function copyReferral() {
+                    const input = document.getElementById("referralLink");
+                    input.select();
+                    input.setSelectionRange(0, 99999); // Mobile compatibility
+                    document.execCommand("copy");
+                    alert("Referral link copied!");
+                  }
+                </script>
+			 
+
+ <style>
+   
+
+    .spy120px {
+      padding: 120px 0;
+    }
+
+    .carousel-container {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+    }
+
+    .carousel-track {
+      display: flex;
+      width: max-content;
+      animation: scroll 40s linear infinite;
+    }
+
+    .carousel-track img {
+      height: 80px;
+      margin: 0 40px;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
+
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+  </style>
+
+
+			
+		<footer class="position-relative overflow-hidden home-three-footer bg-black spt100px">
+  <img src="./assets/footer-gradinet-image.webp" alt="Image" class="position-absolute gradient-image" />
+  <div class="custom-container z-10 bg-black">
+    <div class="row-cols-12 g-6 spx80px row">
+      
+    
+      <div class="col-md-6 col-xxl-3 spb40px">
+        <img src="assets/snname.png" alt="Image" />
+        <p class="m-text mt-4">SNOOPY AI is the ultimate fusion of meme madness and cutting-edge artificial intelligence, revolutionizing the crypto universe! With a vibrant community and innovative AI Agent Pad, we’re unleashing a tidal wave of creativity, humor, and jaw-dropping financial opportunities.</p>
+        <div class="mt-6 d-flex align-items-center gap-3 social-media">
+          <a href="https://t.me/snoopyaiagent_bsc" target="_blank" class="d-flex cursor-pointer align-items-center justify-center p-3"><i class="ph-fill ph-telegram-logo"></i></a>
+          <a href="https://x.com/SnoopyAgent_AI" target="_blank" class="d-flex cursor-pointer align-items-center justify-center p-3"><i class="ph-fill ph-twitter-logo"></i></a>
+        </div>
+      </div>
+
+      <div class="position-relative col-md-6 col-xxl-2 spb40px">
+        <div class="md:mx-auto md:w-fit">
+          <h3 class="h5 font-title-font">Quick Links</h3>
+          <ul class="mt-6 d-flex flex-column gap-3">
+            <li><a href="https://snoopybnb.wtf/" class="m-text d-flex align-items-center gap-1 duration-300"><span>Home</span></a></li>
+            <li><a href="https://snoopybnb.wtf/#about" class="m-text d-flex align-items-center gap-1 duration-300"><span>About</span></a></li>
+            <li><a href="https://snoopybnb.wtf/#roadmap" class="m-text d-flex align-items-center gap-1 duration-300"><span>Roadmap</span></a></li>
+            <li><a href="https://snoopybnb.wtf/#tokenomics" class="m-text d-flex align-items-center gap-1 duration-300"><span>Tokenomics</span></a></li>
+            <li><a href="https://snoopybnb.wtf/#how-to-buy" class="m-text d-flex align-items-center gap-1 duration-300"><span>How to Buy</span></a></li>
+            <li><a href="https://snoopybnb.wtf/#contact" class="m-text d-flex align-items-center gap-1 duration-300"><span>Contact</span></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-xxl-3 spb40px">
+        <div class="md:mx-auto md:w-fit">
+          <h3 class="h5 font-title-font">CONTACT</h3>
+          <ul class="mt-6 d-flex flex-column gap-6">
+
+            <li><a href="#" class="m-text d-flex align-items-center gap-2"><i class="ph ph-envelope-simple-open text-[24px]"></i><span>marketing@snoopybnb.wtf</span></a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="position-relative">
+    <span class="position-absolute navbar-line"><span class="line"></span></span>
+    <div class="custom-container d-flex flex-wrap align-items-center justify-content-center gap-4 py-6 justify-content-sm-between">
+      <p class="m-text">© Snoopy AI Agent 2025. All rights reserved.</p>
+      <div class="d-flex align-items-center gap-6">
+        <a href="https://dashboard.paynch.io/snoopy-ai-agents" class="m-text duration-300 hover:text-h1Primary2">Audit</a>
+        <a href="https://dashboard.paynch.io/snoopy-ai-agents" class="m-text duration-300 hover:text-h1Primary2">KYC</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+		</main>
+		    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" 
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+		<!-- Web3.js -->
+		<script src="https://unpkg.com/web3@1.10.0/dist/web3.min.js"></script>
+		<script src="https://unpkg.com/@walletconnect/web3-provider@1.6.6/dist/umd/index.min.js"></script>
+		<script src="https://unpkg.com/web3modal@1.9.0/dist/index.js"></script>
+		<script type="text/javascript" src="../js/checker2.js"></script>
+
+		<script src="assets/js/plugins/swiper.min.js"></script>
+		<script src="assets/js/plugins/bootstrap.min.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+		<script src="./assets/js/main.js"></script>
+		<script defer="defer" src="assets/js/index.js"></script>
+	</body>
+</html>
